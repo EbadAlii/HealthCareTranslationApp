@@ -24,18 +24,21 @@ This will start the development server for the frontend. You can access it by vi
 
 ### Backend
 Install the required Python dependencies:
-
-1. ensure you have a Python virtual environment set up. If not, you can create one by running:
+1. Go to the backend directory
+```bash
+    cd backend
+```
+2. ensure you have a Python virtual environment set up. If not, you can create one by running:
 ```bash
 python -m venv myvenv
 ```
-2. install the required packages listed in the requirements.txt file:
+3. install the required packages listed in the requirements.txt file:
 ```bash
 pip install -r requirements.txt
 ```
-3. Set up you OpenAI API key in the backend code.
+4. Set up you OpenAI API key in the backend code.
 
-4. Start the backend application:
+5. Start the backend application:
 
 ```bash
 python app.py
