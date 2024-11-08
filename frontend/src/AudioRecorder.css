@@ -1,0 +1,53 @@
+/* AudioRecorder.css */
+.recorder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin: 1rem 0;
+}
+
+.language-bars {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+select {
+    width: 48%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.recording-area {
+    margin: 1.5rem 0;
+}
+
+button {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.transcripts {
+    width: 80%;
+    border-top: 2px solid black;
+    padding-top: 1rem;
+}
+
+.script-box {
+    text-align: left;
+    padding: 0.5rem;
+    box-shadow: 0 0 5px #aaa;
+    margin: 0.5rem 0;
+}
